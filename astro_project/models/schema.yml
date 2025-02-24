@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: people_summary
+    description: "Total number of people in the table"
+    columns:
+      - name: people_count
+        description: "Total count number"
+
+  - name: people_per_craft
+    description: "A total number of people on each craft"
+    columns:
+      - name: craft
+        description: "Craft name"
+      - name: people_count
+        description: "A number of people per craft"
+

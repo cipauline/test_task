@@ -1,0 +1,11 @@
+astro_project:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      host: localhost
+      port: 8123
+      user: default
+      password: ""
+      database: astro
+      schema: astro

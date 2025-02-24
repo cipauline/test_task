@@ -1,0 +1,6 @@
+astro_project/target/
+*.log
+astro_project/dbt_packages/
+venv/
+env/
+__pycache__/
